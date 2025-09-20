@@ -13,7 +13,7 @@ export const MovieDetail = () => {
     useEffect(() => {
         const fetchMovie = async () => {
             try {
-                const response = await axios.get(`http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&i=${param.id}`);
+                const response = await axios.get(`https://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&i=${param.id}`);
                 setMovie(response.data);
                 setLoading(false);
             } catch (error) {
