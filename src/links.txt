@@ -1,5 +1,0 @@
-ed4a5563
-
-money, brain, dead, care
-
-http://www.omdbapi.com/?apikey=ed4a5563&s=care&type=movie&page=1
